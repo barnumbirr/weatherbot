@@ -1,4 +1,4 @@
-<h1><img src="https://raw.github.com/mrsmn/weatherbot/master/doc/weatherbot.png" height=55 alt="weatherbot" title="weatherbot"> weatherbot</h1>
+<h1><img src="https://raw.github.com/barnumbirr/weatherbot/master/doc/weatherbot.png" height=55 alt="weatherbot" title="weatherbot"> weatherbot</h1>
 
 **weatherbot** is an APACHE licensed [Twitter](https://twitter.com) weather bot written in Python. It is designed to tweet weather conditions and forecasts from [Dark Sky](https://darksky.net/).
 An instance of this bot [currently lives here](https://twitter.com/luxweather).
@@ -7,17 +7,17 @@ An instance of this bot [currently lives here](https://twitter.com/luxweather).
 
 From source use
 
-    $ git clone https://github.com/mrsmn/weatherbot.git /etc/weatherbot
+    $ git clone https://github.com/barnumbirr/weatherbot.git /etc/weatherbot
 
 
 Edit the config.sample file to suit your needs and create a cron job like this:
 
     $ 30 * * * * python /etc/weatherbot/bin/weatherbot
 
-## License
+## License:
 
 ```
-Copyright 2014-2017 Martin Simon
+Copyright 2014-2018 Martin Simon
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -33,7 +33,7 @@ limitations under the License.
 
 ```
 
-## Acknowledgement
+## Acknowledgement:
 
 This project's structure is heavily inspired by [Radicale - A simple CalDAV (calendar) and CardDAV (contact) server](https://github.com/Kozea/Radicale).
 
@@ -43,7 +43,7 @@ This project's structure is heavily inspired by [Radicale - A simple CalDAV (cal
 If you feel like buying me a coffee (or a beer?), donations are welcome:
 
 ```
-WDC : WbcWJzVD8yXt3yLnnkCZtwQo4YgSUdELkj
-HBN : F2Zs4igv8r4oJJzh4sh4bGmeqoUxLQHPki
-DOGE: DRBkryyau5CMxpBzVmrBAjK6dVdMZSBsuS
+BTC : 1BNFXHPNRtg7LrLUmQWwPUwzoicUi3uP8Q
+ETH : 0xd061B7dD794F6EB357bf132172ce06D1B0E5b97B
+BCH : qpcmv8vstulfhgdf29fd8sf2g769sszscvaktty2rv
 ```
