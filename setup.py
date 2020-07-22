@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # This file is part of weatherbot - A Twitter weather bot
-# Copyright © 2014-2018 Martin Simon
+# Copyright © 2014-2020 Martin Simon
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -34,7 +34,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     name = 'weatherbot',
     packages = ['weatherbot'],
-    version = '0.2',
+    version = '0.3',
     description = 'weatherbot is an APACHE licensed Twitter weather bot written in Python.',
     author = 'Martin Simon',
     author_email = 'me@martinsimon.me',

@@ -1,7 +1,7 @@
 # Config file for weatherbot - A Twitter weather bot
 # Place it into /etc/weatherbot/config
 #
-# Copyright © 2014-2018 Martin Simon
+# Copyright © 2014-2020 Martin Simon
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@ consumer_secret =
 access_token =
 access_secret =
 
-[darksky]
+[weatherapi]
 api_key =
 latitude =
 longitude =

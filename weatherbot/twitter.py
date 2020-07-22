@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # This file is part of weatherbot - A Twitter weather bot
-# Copyright © 2014-2018 Martin Simon
+# Copyright © 2014-2020 Martin Simon
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,6 +26,7 @@ Currently {condition} and {temp}°C with {wind}km/h winds and {humidity}% humidi
 Forecast: low {forecast_min}°C, high {forecast_max}°C"""
 
 class Bot(object):
+
     def __init__(self):
         self.config = config.load()
 
@@ -38,12 +39,12 @@ class Bot(object):
 
     def __fmt_tweet(self):
         data = weather.Weather().data()
-        fmt_tweet = TWEET_FMT.format(condition = data["currently"]["summary"].lower(),
-                                     temp = int(data["currently"]["temperature"]),
-                                     wind = int(data["currently"]["windSpeed"]),
-                                     humidity = int(data["currently"]["humidity"] * 100),
-                                     forecast_min = int(data["daily"]["data"][0]["temperatureMin"]),
-                                     forecast_max = int(data["daily"]["data"][0]["temperatureMax"]))
+        fmt_tweet = TWEET_FMT.format(condition = data["current"]["condition"]["text"].lower(),
+                                     temp = int(data["current"]["temp_c"]),
+                                     wind = int(data["current"]["wind_kph"]),
+                                     humidity = int(data["current"]["humidity"]),
+                                     forecast_min = int(response["forecast"]["forecastday"][0]["day"]["mintemp_c"]),
+                                     forecast_max = int(response["forecast"]["forecastday"][0]["day"]["maxtemp_c"]))
         return fmt_tweet
 
     def post(self):

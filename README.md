@@ -1,6 +1,6 @@
 <h1><img src="https://raw.github.com/barnumbirr/weatherbot/master/doc/weatherbot.png" height=55 alt="weatherbot" title="weatherbot"> weatherbot</h1>
 
-**weatherbot** is an APACHE licensed [Twitter](https://twitter.com) weather bot written in Python. It is designed to tweet weather conditions and forecasts from [Dark Sky](https://darksky.net/).
+**weatherbot** is an APACHE licensed [Twitter](https://twitter.com) weather bot written in Python. It is designed to tweet weather conditions and forecasts from [WeatherAPI.com](https://www.weatherapi.com/).
 An instance of this bot [currently lives here](https://twitter.com/luxweather).
 
 ## Installation:
@@ -17,7 +17,7 @@ Edit the config.sample file to suit your needs and create a cron job like this:
 ## License:
 
 ```
-Copyright 2014-2018 Martin Simon
+Copyright 2014-2020 Martin Simon
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
