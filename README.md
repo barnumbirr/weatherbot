@@ -1,7 +1,7 @@
 <h1><img src="https://raw.github.com/barnumbirr/weatherbot/master/doc/weatherbot.png" height=55 alt="weatherbot" title="weatherbot"> weatherbot</h1>
 
 **weatherbot** is an APACHE licensed [Twitter](https://twitter.com) weather bot written in Python. It is designed to tweet weather conditions and forecasts from [WeatherAPI.com](https://www.weatherapi.com/).
-An instance of this bot [currently lives here](https://twitter.com/luxweather).
+An instance of this bot [currently lives here](https://twitter.com/luxweather). This library has been tested with Python 3.6+ only.
 
 ## Installation:
 

@@ -43,8 +43,8 @@ class Bot(object):
                                      temp = int(data["current"]["temp_c"]),
                                      wind = int(data["current"]["wind_kph"]),
                                      humidity = int(data["current"]["humidity"]),
-                                     forecast_min = int(response["forecast"]["forecastday"][0]["day"]["mintemp_c"]),
-                                     forecast_max = int(response["forecast"]["forecastday"][0]["day"]["maxtemp_c"]))
+                                     forecast_min = int(data["forecast"]["forecastday"][0]["day"]["mintemp_c"]),
+                                     forecast_max = int(data["forecast"]["forecastday"][0]["day"]["maxtemp_c"]))
         return fmt_tweet
 
     def post(self):

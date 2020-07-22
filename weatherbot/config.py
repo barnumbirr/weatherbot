@@ -17,11 +17,11 @@
 # limitations under the License.
 
 import os
-import ConfigParser
+import configparser
 from . import exception
 
 def load(path='/etc/weatherbot/config'):
-    config = ConfigParser.SafeConfigParser(allow_no_value=False)
+    config = configparser.SafeConfigParser(allow_no_value=False)
 
     if os.path.isfile(path) and os.access(path, os.R_OK):
         config.read(path)

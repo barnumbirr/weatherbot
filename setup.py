@@ -34,7 +34,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     name = 'weatherbot',
     packages = ['weatherbot'],
-    version = '0.3',
+    version = '0.3.1',
     description = 'weatherbot is an APACHE licensed Twitter weather bot written in Python.',
     author = 'Martin Simon',
     author_email = 'me@martinsimon.me',

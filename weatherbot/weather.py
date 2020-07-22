@@ -29,6 +29,7 @@ class Weather(object):
     def __init__(self, base_url = __DEFAULT_BASE_URL, request_timeout = __DEFAULT_TIMEOUT):
         self.base_url = base_url
         self.config = config.load()
+        self.session = self._create_session()
         self.request_timeout = request_timeout
 
     @staticmethod
