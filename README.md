@@ -1,4 +1,4 @@
-<h1><img src="https://raw.github.com/barnumbirr/weatherbot/master/doc/weatherbot.png" height=55 alt="weatherbot" title="weatherbot"> weatherbot</h1>
+<h1><img src="https://raw.github.com/barnumbirr/weatherbot/master/images/weatherbot.png" height=55 alt="weatherbot" title="weatherbot"> weatherbot</h1>
 
 **weatherbot** is an APACHE licensed [Twitter](https://twitter.com) weather bot written in Python. It is designed to tweet weather conditions and forecasts from [WeatherAPI.com](https://www.weatherapi.com/).
 An instance of this bot [currently lives here](https://twitter.com/luxweather). This library has been tested with Python 3.6+ only.
@@ -7,17 +7,20 @@ An instance of this bot [currently lives here](https://twitter.com/luxweather). 
 
 From source use
 
-    $ git clone https://github.com/barnumbirr/weatherbot.git /etc/weatherbot
-
+```bash
+$ git clone https://github.com/barnumbirr/weatherbot.git /etc/weatherbot
+```
 
 Edit the config.sample file to suit your needs and create a cron job like this:
 
-    $ 30 * * * * python /etc/weatherbot/bin/weatherbot
+```bash
+$ 30 * * * * python /etc/weatherbot/bin/weatherbot
+```
 
 ## License:
 
 ```
-Copyright 2014-2020 Martin Simon
+Copyright 2014-2021 Martin Simon
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -37,13 +40,13 @@ limitations under the License.
 
 This project's structure is heavily inspired by [Radicale - A simple CalDAV (calendar) and CardDAV (contact) server](https://github.com/Kozea/Radicale).
 
-
 ## Buy me a coffee?
 
 If you feel like buying me a coffee (or a beer?), donations are welcome:
 
 ```
-BTC : 1BNFXHPNRtg7LrLUmQWwPUwzoicUi3uP8Q
-ETH : 0xd061B7dD794F6EB357bf132172ce06D1B0E5b97B
-BCH : qpcmv8vstulfhgdf29fd8sf2g769sszscvaktty2rv
+BTC : bc1qq04jnuqqavpccfptmddqjkg7cuspy3new4sxq9
+DOGE: DRBkryyau5CMxpBzVmrBAjK6dVdMZSBsuS
+ETH : 0x2238A11856428b72E80D70Be8666729497059d95
+LTC : MQwXsBrArLRHQzwQZAjJPNrxGS1uNDDKX6
 ```
